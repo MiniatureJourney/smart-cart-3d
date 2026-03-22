@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Shopping Cart - 3D Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div class="ui-overlay">
+        <header>
+            <h1>SmartCart V2 <span class="badge">LIVE RENDER</span></h1>
+            <p>Investor Architectural Visualization</p>
+        </header>
+        
+        <div class="controls">
+            <button id="view-front">Front</button>
+            <button id="view-side">Side</button>
+            <button id="view-iso" class="active">3/4 Hero</button>
+        </div>
+        
+        <div class="features-panel">
+            <h3>Architecture Specs</h3>
+            <ul>
+                <li>Precision Tubular A-Frame</li>
+                <li>U-Base Geometric Platform</li>
+                <li>Molded Industrial Plastics</li>
+                <li>Dual-Caster Lock Physics</li>
+                <li>Touch Commerce Dashboard</li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
